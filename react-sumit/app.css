@@ -14,7 +14,11 @@ body {
   color: #fff;
   font-size: 50px;
 }
-button{
+#display2{
+  color: yellow;
+  font-size: 60px;
+}
+button, button2{
   padding: 10px 15px;
   border-radius: 5px;
   border:none;
