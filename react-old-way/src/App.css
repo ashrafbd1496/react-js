@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
 }
 
 .App-link {
@@ -35,4 +35,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+header h1 span {
+  color: #1de2e2;
 }
