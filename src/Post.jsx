@@ -6,9 +6,9 @@ const element = React.createElement("h1", null, "");
 
 export default function Post() {
   const postData = {
-    title: "React Tuto",
+    title: "Learn React",
     author: "Ashraf",
-    content: "Test React",
+    content: "lorem ipsum dollar",
   };
   
   return (
