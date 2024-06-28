@@ -3,11 +3,12 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Home from './componets/Home/Home'
 import Blogs from './componets/Blogs/Blogs'
+import Clock from './componets/sumit/Clock'
+
 function App() {
   return (
     <>
-      <Home/>
-      {/* <Blogs/> */}
+      <Clock locale= "bn-BD"/>
     </>
   );
 }
