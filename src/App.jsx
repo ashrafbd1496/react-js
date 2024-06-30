@@ -1,14 +1,13 @@
 import { createElement, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import Home from "./componets/Home/Home";
-import TextInput from "./componets/react-states/TextInput/TextInput";
+import TodoList from "./componets/react-states/TodoList/TodoList";
 
 
 function App() {
   return (
     <>
-      <TextInput />
+      <TodoList />
     </>
   );
 }

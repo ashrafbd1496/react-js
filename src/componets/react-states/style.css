@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.addBtn {
+  border-radius: 5px;
+  border: none;
+  padding: 8px 10px;
+  transition: all .5s;
+}
+input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+input:focus, .addBtn:focus{
+    outline: none;
+}
+.addBtn:hover{
+    background-color:#333;
+    color: #fff;
+}
+li{
+    text-align: left;
+    color: #fff;
+   padding-left: 10px;
+}
+li:first-child{
+    margin-top: 20px;
+}
