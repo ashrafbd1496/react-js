@@ -1,13 +1,12 @@
 import { createElement, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import TodoList from "./componets/react-states/TodoList/TodoList";
-
+import Toggle from "./componets/react-states/Toggle/Toggle";
 
 function App() {
   return (
     <>
-      <TodoList />
+      <Toggle />
     </>
   );
 }

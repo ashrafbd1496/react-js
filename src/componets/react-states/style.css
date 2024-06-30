@@ -33,3 +33,9 @@ li{
 li:first-child{
     margin-top: 20px;
 }
+.onOffBtn{
+    margin-bottom: 20px;
+}
+.onOffdiv img{
+    border-radius: 5px ;
+}
