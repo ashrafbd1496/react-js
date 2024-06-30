@@ -2,11 +2,17 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 
 class StateManagement extends React.Component {
+  state = {date: new Date()};
+
+  /*
+  as the props did not used here , can use shortcut like above
      constructor(props){
         super(props);
         this.state = {date: new Date()};
 
      }
+     */
+
      componentDidMount(){
       //console.log("componentDidMOunt has mounted.");
       this.clockTImer = setInterval(()=>this.tick(),1000);
