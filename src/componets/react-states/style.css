@@ -39,3 +39,9 @@ li:first-child{
 .onOffdiv img{
     border-radius: 5px ;
 }
+.inc, .dec{
+    margin-right: 10px;
+}
+.counterStep{
+    color: #fff;
+}
