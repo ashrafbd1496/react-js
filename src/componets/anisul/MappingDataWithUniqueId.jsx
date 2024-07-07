@@ -7,19 +7,19 @@ const lists = [
     id: uuidv4(),
     title: "Title 01",
     desc: "This is description 1",
-    image: "/public/card-img-1.png",
+    image: "/card-img-1.png",
   },
   {
     id: uuidv4(),
     title: "Title 02",
     desc: "This is description 2",
-    image: "/public/card-img-2.png",
+    image: "/card-img-2.png",
   },
   {
     id: uuidv4(),
     title: "Title 03",
     desc: "This is description 3",
-    image: "/public/card-img-1.png",
+    image: "/card-img-1.png",
   },
 ];
 
