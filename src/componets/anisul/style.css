@@ -58,10 +58,14 @@ body {
   border-radius: 5px;
   text-decoration: none;
   font-size: 1em;
-  transition:  0.8s;
+  transition: 0.8s;
 }
 
 .card-button:hover {
   background: teal;
   color: #000;
+}
+.icon {
+  font-size: 30px;
+  padding-right: 20px;
 }
