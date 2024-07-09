@@ -26,7 +26,7 @@ function CounterStep() {
         placeholder="Step"
       />
       <button className='inc' onClick={increment}>Increment</button>
-      <button className='dec' onClick={decrement}>Decrement</button>
+      <button className='dec' onClick={decrement} disabled = {count === 0 ? true : false}> Decrement </button>
       <button className='ctReset' onClick={reset}>Reset</button>
     </div>
   );

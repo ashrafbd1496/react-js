@@ -18,7 +18,7 @@ const users = [
 const NestedMapping = () => {
   return (
     <div>
-      <h1>
+      <h1 className="list-title">
         <span className="icon">
           <FaListAlt />
         </span>
