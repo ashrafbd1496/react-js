@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const Card = ({ CardTitle, CardDesc ,CardImage}) => {
+const Card = ({ CardTitle, CardDesc, CardImage }) => {
   //we destructured properties CardTitle, CardDesc from props object directly
   //we can catch those properties using props
   //console.log(props);
@@ -14,11 +14,7 @@ const Card = ({ CardTitle, CardDesc ,CardImage}) => {
   return (
     <div>
       <div className="card">
-        <img
-          src={CardImage}
-          alt="Card Image"
-          className="card-image"
-        />
+        <img src={CardImage} alt="Card Image" className="card-image" />
         <div className="card-content">
           <h2 className="card-title">{CardTitle}</h2>
           {/* <h2 className="card-title">{props.CardTitle}</h2> */}
