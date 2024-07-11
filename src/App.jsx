@@ -8,7 +8,7 @@ import ReactBootstrap from "./componets/anisul/ReactBootstrap/";
 function App() {
   return (
     <>
-      <ReactBootstrap />
+      <ReactBootstrap quantities = {8}/>
     </>
   );
 }
